@@ -3,16 +3,21 @@
     src: url("../fonts/montserrat/Montserrat-Regular.ttf");
 
 }
+
 @font-face {
     font-family: Montserrat-ExtraBold;
     src: url("../fonts/montserrat/Montserrat-ExtraBold.ttf");
 
 }
+
 @font-face {
     font-family: Montserrat-Bold;
     src: url("../fonts/montserrat/Montserrat-Bold.ttf");
 
 }
+
+
+
 * {
     margin: auto;
 }
@@ -53,6 +58,7 @@ h3.imgText {
     text-align: center;
     position: relative;
     top: 200px;
+    font-family: Montserrat-ExtraBold, serif;
 }
 
 input.inputUsername {
@@ -63,6 +69,7 @@ input.inputUsername {
     position: relative;
     top: 255px;
     left: 330px;
+    font-family: Montserrat-ExtraBold, serif;
 
 }
 
@@ -73,8 +80,8 @@ input.inputPassword {
     width: 360px;
     position: relative;
     top: 355px;
-    top: 355px;
     right: 40px;
+    font-family: Montserrat-ExtraBold, serif;
 
 }
 
@@ -89,4 +96,13 @@ button.btn {
     position: relative;
     top: 400px;
     left: 330px;
+    font-family: Montserrat-ExtraBold, serif;
+}
+
+input[type="text"].inputUsername::-webkit-input-placeholder {
+    color: #8E8E8E;
+}
+
+input[type="password"].inputPassword::-webkit-input-placeholder {
+    color: #8E8E8E;
 }
